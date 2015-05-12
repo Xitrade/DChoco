@@ -12,8 +12,13 @@ define('ImageDirectory', 'pics/');
 
 ?>
 
-
-<!--CLIENT ID		1b8fcbe153974004a81c309f30b0ce7e
-	CLIENT SECRET	a57bdce245ec46968dae96eb7f481a8f
-	WEBSITE URL		http://localhost/dchoco/index.php
-	REDIRECT URI	http://localhost/dchoco/index.php -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+	<a href="https:api.instagram/ouath/authorize/?client_id=<<?php echo client_ID; ?>&redirect_uri=<<?php echo redirectURI; ?>>&response_type=code">Login Scrub</a>
+		<script type="js/main.js"></script>
+	</body>
+</html>
